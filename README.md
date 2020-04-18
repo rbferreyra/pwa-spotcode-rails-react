@@ -1,4 +1,4 @@
-# PWA Spotify Rails React
+# PWA Spotcode Rails React
 
 Desafio do [OneBitCode](https://onebitcode.com/) para a semana Super Full Stack, que ocorreu entre os dias 13 a 19 de Abril / 2020.
 
