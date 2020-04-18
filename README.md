@@ -38,8 +38,31 @@ Para fins de manter a compatibilidade, será necessário instalar a versão 6.0.
 gem install rails -v '6.0.2.1'
 ```
 
-### Criar a aplicaçao
+### Criar a aplicação
 
 ```bash
 rails _6.0.2.1_ new pwa-spotcode-rails-react
 ```
+
+## Aplicação
+
+Criar a controller Home
+
+```bash
+rails g controller home index
+```
+
+Incluir a rota. Dessa forma estamos criando uma rota raiz para a action index do controller Home.
+
+```ruby
+Rails.application.routes.draw do
+ root to: "home#index"
+end
+```
+
+Iniciar o servidor
+
+```bash
+rails s
+```
+Abrir o navegador e testar a URL [http://localhost:3000](http://localhost:3000)
